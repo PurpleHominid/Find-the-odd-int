@@ -22,10 +22,10 @@ int findOdd(const std::vector<int>& numbers) {
 
 int main() {
 	using V = std::vector<int>;
-    std::cout << "\nA: " << findOdd(V{20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5}); //, Equals(5));
-    //std::cout << "\nB: " << findOdd(V{1,1,2,-2,5,2,4,4,-1,-2,5}); //, Equals(-1));
-    //std::cout << "\nC: " << findOdd(V{20,1,1,2,2,3,3,5,5,4,20,4,5}); //, Equals(5));
-    //std::cout << "\nD: " << findOdd(V{10}); //, Equals(10));
-    //std::cout << "\nE: " << findOdd(V{1,1,1,1,1,1,10,1,1,1,1}); //, Equals(10));
+	std::cout << "\nA: " << findOdd(V{20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5}); // -> 5
+	//std::cout << "\nB: " << findOdd(V{1,1,2,-2,5,2,4,4,-1,-2,5}); // -> -1
+	//std::cout << "\nC: " << findOdd(V{20,1,1,2,2,3,3,5,5,4,20,4,5}); // -> 5
+	//std::cout << "\nD: " << findOdd(V{10}); // -> 10
+	//std::cout << "\nE: " << findOdd(V{1,1,1,1,1,1,10,1,1,1,1}); // -> 10
 	std::cout << "\n";
 }
